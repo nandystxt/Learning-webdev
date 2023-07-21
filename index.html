@@ -8,8 +8,8 @@
     <title>Curriculum Vitae Tailwindcss CDN</title>
     <link href="dist/output.css" rel="stylesheet">
 </head>
-<body>
-    <div class="px-40">
+<body class="lg:px-40 max-w-[1440px]">
+    <div class=" mx-auto">
     <div class="bg-sky-400 w-full p-4">
         <h1 class="font-semibold text-base">Farhan Nandyawan Syarief <br> Bachelor of Industrial Engineering</h1>
         <!-- <div class="grid grid-cols-2 gap-1 pt-10">
@@ -18,20 +18,30 @@
             <div class="grid-cols-3">Address : Sukabumi, West Java, Indonesia</div>
             <div class="grid-cols-4">Linkedin : Farhan Nandyawan Syarief</div>
         </div> -->
-        <div class="flex justify-between">
-            <ul class="flex flex-col py-4 cursor-pointer text-base gap-2">
-                <li class="flex"><a href="mailto:farhannandyawan@gmail.com"><img src="mail.svg" alt=""></a>: farhannandyawan@gmail.com</li>
-                <li class="flex"><img src="wa.svg" alt=""> : +62812 2413 8511</li>
-            </ul>
-            <ul class="flex flex-col py-4 cursor-pointer text-base w-1/2 gap-2">
-                <li class="flex"><a href="https://goo.gl/maps/zwmqyrvn3F94Pyqr8" target="_blank"> <img src="loc.svg"> </a>: Sukabumi, West Java, Indonesia</li>
-                <li class="flex"><a href="https://www.linkedin.com/in/farhan-nandyawan-syarief-782a77187" target="_blank"><img src="linkedin.svg" alt=""></a> : Farhan Nandyawan Syarief</li>
-            </ul>
+        <div>
+            <div class="w-full max-w-[425px] md:hidden mx-auto">
+                <ul class="flex w-full mx-auto justify-between p-4">
+                    <li><img src="wa.svg" alt=""></li>
+                    <li><img src="mail.svg" alt=""></li>
+                    <li><img src="loc.svg" alt=""></li>
+                    <li><img src="linkedin.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="md:flex">
+                <ul class="flex flex-col py-4 cursor-pointer text-base mx-auto w-1/2 gap-2">
+                    <li class="flex"><a href="mailto:farhannandyawan@gmail.com"><img src="mail.svg" alt=""></a> : farhannandyawan@gmail.com</li>
+                    <li class="flex"><img src="wa.svg" alt="">: +62812 2413 8511</li>
+                </ul>
+                <ul class="flex flex-col py-4 cursor-pointer text-base gap-2 mx-auto w-1/2">
+                    <li class="flex"><a href="https://goo.gl/maps/zwmqyrvn3F94Pyqr8" target="_blank"> <img src="loc.svg"></a> : Sukabumi, West Java, Indonesia</li>
+                    <li class="flex"><a href="https://www.linkedin.com/in/farhan-nandyawan-syarief-782a77187" target="_blank"><img src="linkedin.svg" alt=""></a> : Farhan Nandyawan Syarief</li>
+                </ul>
+            </div>
         </div>
-        <p class="pt-6 text-justify text-base">
-            My name is Farhan Nandyawan Syarief, graduated from Industrial Engineering Telkom University on April 2021. I have worked in manaufacturing for 6 month, but i'm no longer worked in this job.
-            And now i start to learn web development from youtube and i was taking hacktiv8 class for one month as the beginning. In hacktive8 i was learning only javascript, html, and css.
-            And after that i will try to make my own website as portofolio.
+        <p class="pt-4 text-justify text-base">
+            Let me introduce my self, My names Farhan Nandyawan Syarief. I graduated from Industrial Engineering Telkom University on April 2021 with sub major Human Capital. And I take my final project topic about Payroll using Cullen Egan Dell method. 
+            On June 2022 I'm applying job and become production supervisor for 6 months. After that on February 2023 I take Hacktive8 fullstack web development (programmer course) for 1 month. In a month i only learn about programming basic to create website using html, css, and javascript. 
+            And now I'm still learning to develop my personal website which i'm making. You can find on my github address: nandystxt.github.io/Learning-webdev. It still under development and have many update like responsive feature and many changes to makeit more interactive. Recommended access using desktop web browser.
     </div>
     <div class="bg-blue-300 p-4">
 <!-- Education -->
@@ -64,8 +74,8 @@
             <div>Supevisor Produksi - PT Prosweal Indomax <span class="italic font-thin">(Fulltime)</span><br>
                 <em>Responsibility</em>
                 <ul class="list-disc px-4 text-justify flex-wrap">
-                    <li>Bertanggung jawab untuk memonitoring Dept. packaging obat tradisionl dan Dept. proses olahan pangan</li>
-                    <li>Melakukan trial di Dept. proses olahan pangan bersana <em>Product Development</em></li>
+                    <li>Main task correcting, reporting the result from material requierement every batch. More than 30 batch in 6 months have been completed by me and my team.</li>
+                    <li>Melakukan trial di Dept. Proses olahan pangan bersama <em>Product Development</em></li>
                     <li>Mengahasilkan produk pertama Dept. proses olahan pangan bersama <em>Product Development</em></li>
                     <li>Meningkatkan target produksi dengan menerapkan metode kaizen</li>
                     <li>Meningkatkan sistem penyimpanan bahan kemas Dept. packaging obat tradisional menjadi lebih efisien</li>
