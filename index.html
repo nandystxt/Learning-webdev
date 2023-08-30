@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Curriculum Vitae Tailwindcss CDN</title>
-    <link href="dist/output.css" rel="stylesheet">
 </head>
-<body>
-    <div class="px-40">
+<body class="max-w-[1440px] mx-auto">
+    <div class=" mx-auto">
     <div class="bg-sky-400 w-full p-4">
-        <h1 class="font-semibold text-base">Farhan Nandyawan Syarief <br> Jr. Web Development</h1>
-        <div class="grid grid-cols-2 gap-1 pt-10">
-            <div class="grid-cols-1">Email : farhannandyawan@gmail.com</div>
-            <div class="grid-cols-2">Contact(wa) : +62812 2413 8511</div>
-            <div class="grid-cols-3">Address : Sukabumi, West Java, Indonesia</div>
-            <div class="grid-cols-4">Linkedin : Farhan Nandyawan Syarief</div>
+        <h1 class="font-semibold text-base">Farhan Nandyawan Syarief <br> Bachelor of Industrial Engineering</h1>
+<!-- Info Phone size -->
+        <div>
+            <div class="w-full md:hidden mx-auto max-w-[425px]">
+                <ul class="flex w-full mx-auto justify-between p-4 cursor-pointer">
+                    <li><a href="https://wa.me/+6281224138511"><img src="wa.svg" alt=""></li></a>
+                    <li><a href="mailto:farhannandyawan@gmail.com"><img src="mail.svg" alt=""></li></a>
+                    <li><a href="https://goo.gl/maps/zwmqyrvn3F94Pyqr8" target="_blank"><img src="loc.svg" alt=""></li></a>
+                    <li><a href="https://www.linkedin.com/in/farhan-nandyawan-syarief-782a77187" target="_blank"><img src="linkedin.svg" alt=""></li></a>
+                </ul>
+            </div>
+<!-- Info Web size -->
+            <div class="md:flex hidden sm-block mx-auto">
+                <ul class="flex flex-col py-4 cursor-pointer text-base mx-auto w-1/2 gap-2">
+                    <li class="flex mx-auto "><a href="mailto:farhannandyawan@gmail.com"><img src="mail.svg" alt=""></a> : farhannandyawan@gmail.com</li>
+                    <li class="flex mx-auto "><img src="wa.svg" alt="">: +62812 2413 8511</li>
+                </ul>
+                <ul class="flex flex-col py-4 cursor-pointer text-base gap-2 mx-auto w-1/2">
+                    <li class="flex mx-auto"><a href="https://goo.gl/maps/zwmqyrvn3F94Pyqr8" target="_blank"> <img src="loc.svg"></a> : Sukabumi, West Java, Indonesia</li>
+                    <li class="flex mx-auto"><a href="https://www.linkedin.com/in/farhan-nandyawan-syarief-782a77187" target="_blank"><img src="linkedin.svg" alt=""></a>: Farhan Nandyawan Syarief</li>
+                </ul>
+            </div>
         </div>
-        <!-- <ul class="flex justify-between py-4 cursor-pointer text-base">
-            <li><a href=""></a> Email : farhannandyawan@gmail.com</li>
-            <li><a href=""></a> Contact(wa) : +62812 2413 8511</li>
-            <li><a href=""></a> Address : Sukabumi, West Java, Indonesia</li>
-            <li><a href="www.linkedin.com/in/farhan-nandyawan-syarief-782a77187" target="_blank">Linkedin</a> : Farhan Nandyawan Syarief</li>
-        </ul> -->
-        <p class="pt-6 text-justify text-base">
-            My name is Farhan Nandyawan Syarief, graduated from Industrial Engineering Telkom University. I have worked in manaufacturing for 6 month, but im no longer worked in this job.
-            And now i start to learn web development from youtube and i was taking hacktiv8 class for one month as the beginning. In hacktive8 i was learning only javascript, html, and css.
-            And after that i will try to make my own website as portofolio.
+        <p class="pt-4 text-justify text-base">
+            My name is Farhan Nandyawan Syarief. I graduated from Industrial Engineering Telkom University on April 2021 with sub major Human Capital. My final project topic about payroll using Cullen Egan Dell method. And i have worked become production supervisor for 6 months. On 2023 i decide switch my carreer become software engineer specially part of web development specificly frontend engineer. I have joined bootcamp to improve my knowledge and skill about web development. On Februari 2023 I’m join hacktive8’s bootcamp and only for one month. And I have learned fundamental web development like how to use github and play with javascript for 3 weeks and 1 weeks for html and css. It’s very usefull for me that I never heard about github before. From April until August I decide to self learning with my friend which have IT background in same college. In this session i exploring many knowledge and skill to become frontend engineer. Now I have learned html, css, javascript, tailwindcss, and react. I'm highly motivated to become frontend engineer.
     </div>
-    <div class="bg-blue-300 p-4">
+
 <!-- Education -->
+        <div class="bg-blue-300 p-4">
         <div class="pb-4">
             <h2 class="font-semibold pb-1">Education</h2>
         <hr class="w-full h-1 bg-slate-950 border-0 rounded">
@@ -47,38 +55,39 @@
         <h2 class="font-semibold pb-1">Experience</h2>
         <hr class="w-full h-1 bg-slate-950 border-0 rounded">
         <div class="flex justify-between pb-4 pt-2">
-            <div>
-                Jr. Web Development <span class="italic font-thin">(On Going)</span><br>
-                <em>Responsibility</em>
-                <ul class="list-disc px-4 text-justify">
-                    <li>Start make own simple website using html and tailwindcss</li>
+            <div class="w-[75%]">
+                Beginner Frontend Engineer <span class="italic font-thin">(On Going)</span><br>
+Responsibility
+                <ul class="list-disc px-4 flex-wrap text-justify">
+                    <li>Start make own simple website</li>
                 </ul>
             </div>
-            <div>July 2023 - Now</div>
+            <div class="text-rigth">July 2023 - Now</div>
         </div>
-        <div class="flex justify-between pb-4">
-            <div>Supevisor Produksi - PT Prosweal Indomax <span class="italic font-thin">(Fulltime)</span><br>
-                <em>Responsibility</em>
+        <div class="flex justify-between pb-4 w-full">
+            <div class="w-[75%]">Supevisor Produksi - PT Prosweal Indomax <span class="italic font-thin">(Fulltime)</span><br>Responsibility
                 <ul class="list-disc px-4 text-justify flex-wrap">
-                    <li>Bertanggung jawab untuk memonitoring Dept. packaging obat tradisionl dan Dept. proses olahan pangan</li>
-                    <li>Melakukan trial di Dept. proses olahan pangan bersana <em>Product Development</em></li>
-                    <li>Mengahasilkan produk pertama Dept. proses olahan pangan bersama <em>Product Development</em></li>
-                    <li>Meningkatkan target produksi dengan menerapkan metode kaizen</li>
-                    <li>Meningkatkan sistem penyimpanan bahan kemas Dept. packaging obat tradisional menjadi lebih efisien</li>
+                    <li>Main task correcting, reporting the result from material requierement every batch. More than 30 batch in 6 months have been completed by me and my team. </li>
+                    <li>Creating improvement at production target together with Dept. Business Improvement.</li>
+                    <li>Trying to push the limit from every production lane and evaluating the result and set new target. </li>
+                    <li>Colaboration with product development from PT Novell Pharmaceutical Laboratories to find good setup for production machine and proper machine setting at Dept. Olahan Pangan.</li>
+                    <li>Preparing first mass production at Dept. Olahan Pangan.</li>
+                    <li>Succeeded to operate and produce the first product at Dept. Olahan Pangan which since these departement developed there is only trial activity on the product. You can find the product in ecommerce with keyword : islim.</li>
+                </ul>
                 </ul>
             </div>
-            <div>June 2022 - November 2022</div>
+            <div class="text-right">June 2022 - November 2022</div>
         </div>
-        <div class="flex justify-between">
-            <div>Corporate Planning and Management Division - PT Pamapersada Nusantara <span class="italic font-thin">(Internship)</span><br>
-                <em>Responsibility</em>
+        <div class="flex justify-between w-full">
+            <div class="w-[75%]">Corporate Planning and Management Division - PT Pamapersada Nusantara <span class="italic font-thin">(Internship)</span><br>Responsibility
                 <ul class="list-disc px-4 text-justify flex-wrap">
-                    <li>Mengumpulkan inovasi dari setiap site tambang yang bekerjasama dengan PT Pamapersada Nusantara</li>
-                    <li>Membantu menyiapkan acara InnovX</li>
-                    <li>Membantu dalam mengevaluasi inovasi dari acara InnovX</li>
+                    <li>Collecting coal mine data from all site which have relation with our company.</li> 
+                    <li>Collecting Innovation data from coal mine site in Kalimantan (Adaro Area)</li> 
+                    <li>Become helper at InnovX event in August 2019. </li>	
+                    <li>Help to preparing internal competition from all coal mine site.</li>
                 </ul>
             </div>
-            <div>June 2019 - August 2019</div>
+            <div class="text-right">June 2019 - August 2019</div>
         </div>
 <!-- certifiacation -->
         <div class="pt-5">
@@ -91,6 +100,8 @@
                 <li>SAP AC010 - Business Processes in Financial Accounting</li>
                 <li>SAP HR050 - Business Processes in Human Capital Management</li>
                 <li>Unified Modelling Language (UML) using Visual Paradigm</li>
+                <li>Revou's Software Engineer Fundamental Course 2023 <br>
+                    - Final project : mini apps which have function to calculate area and circumference of triangle</li>
             </ul>
         </div>
 <!-- Skill -->
@@ -106,10 +117,15 @@
                         <li>Microsoft Office (Word, Powerpoint, Outlook, Excel)</li>
                         <li>Adobe (Premierepro, Photshop)</li>
                         <li>IBM SPSS</li>
-                        <li>Git <span class="italic font-thin">(beginner)</span></li>
+                        <li>Github <span class="italic font-thin">(beginner)</span></li>
                         <li>Visual Studio Code <span class="italic font-thin">(beginner)</span></li>
                         <li>HTML <span class="italic font-thin">(beginner)</span></li>
-                        <li>CSS (Tailwindcss) <span class="italic font-thin">(beginner)</span></li>
+                        <li>CSS <span class="italic font-thin">(beginner)</span></li>
+                        <li>Tailwindcss <span class="italic font-thin">(beginner)</span></li>
+                        <li>Figma <span class="italic font-thin">(beginner)</span></li>
+                        <li>React (basic) <span class="italic font-thin">(beginner)</span></li>
+                        <li>Javascript (basic) <span class="italic font-thin">(beginner)</span></li>
+                        <li>Vite <span class="italic font-thin">(beginner)</span></li>
                     </ul>
                 </div>
                 <div class="pb-5 pl-10"><span class="italic">Softskill</span>
